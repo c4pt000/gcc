@@ -4,6 +4,7 @@
 git clone -b releases/gcc-8 https://github.com/gcc-mirror/gcc
 cd gcc/
 ./contrib/download_prerequisites 
+mkdir /opt/gcc8bin
 ./configure --prefix=/opt/gcc8bin
 make -j24
 make -j24 install
